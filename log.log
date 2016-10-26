@@ -1,0 +1,45 @@
+2016-10-26 16:16:32 log.py [line:127] INFO Scrapy 1.2.0 started (bot: sh_lianjia_chengjiao)
+2016-10-26 16:16:32 log.py [line:130] INFO Overridden settings: {'NEWSPIDER_MODULE': 'sh_lianjia_chengjiao.spiders', 'SPIDER_MODULES': ['sh_lianjia_chengjiao.spiders'], 'ROBOTSTXT_OBEY': True, 'DOWNLOAD_DELAY': 5, 'BOT_NAME': 'sh_lianjia_chengjiao'}
+2016-10-26 16:16:33 middleware.py [line:53] INFO Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-10-26 16:16:33 useragent.py [line:5] WARNING /home/kanghe/work_content/hz_lianjia_chengjiao/sh_lianjia_chengjiao/middlewares.py:5: ScrapyDeprecationWarning: Module `scrapy.contrib.downloadermiddleware.useragent` is deprecated, use `scrapy.downloadermiddlewares.useragent` instead
+  from scrapy.contrib.downloadermiddleware.useragent import UserAgentMiddleware
+
+2016-10-26 16:16:33 middleware.py [line:53] INFO Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'sh_lianjia_chengjiao.middlewares.ShLianJiaUserAgent',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-10-26 16:16:33 middleware.py [line:53] INFO Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-10-26 16:16:33 middleware.py [line:53] INFO Enabled item pipelines:
+['sh_lianjia_chengjiao.pipelines.ShLianjiaChengjiaoPipeline']
+2016-10-26 16:16:33 engine.py [line:257] INFO Spider opened
+2016-10-26 16:16:33 logstats.py [line:47] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-10-26 16:16:33 telnet.py [line:60] DEBUG Telnet console listening on 127.0.0.1:6031
+2016-10-26 16:16:34 engine.py [line:239] DEBUG Crawled (200) <GET http://hz.lianjia.com/robots.txt> (referer: None)
+2016-10-26 16:16:40 engine.py [line:239] DEBUG Crawled (200) <GET http://hz.lianjia.com/chengjiao/> (referer: None)
+2016-10-26 16:16:40 hz_lianjia.py [line:61] DEBUG start a new hub!
+2016-10-26 16:16:40 hz_lianjia.py [line:66] DEBUG complete_area_url: http://hz.lianjia.com/chengjiao/xihu/
+2016-10-26 16:16:40 hz_lianjia.py [line:66] DEBUG complete_area_url: http://hz.lianjia.com/chengjiao/xiacheng/
+2016-10-26 16:16:40 hz_lianjia.py [line:66] DEBUG complete_area_url: http://hz.lianjia.com/chengjiao/jianggan/
+2016-10-26 16:16:40 hz_lianjia.py [line:66] DEBUG complete_area_url: http://hz.lianjia.com/chengjiao/gongshu/
+2016-10-26 16:16:40 hz_lianjia.py [line:66] DEBUG complete_area_url: http://hz.lianjia.com/chengjiao/shangcheng/
+2016-10-26 16:16:40 hz_lianjia.py [line:66] DEBUG complete_area_url: http://hz.lianjia.com/chengjiao/binjiang/
+2016-10-26 16:16:40 hz_lianjia.py [line:66] DEBUG complete_area_url: http://hz.lianjia.com/chengjiao/yuhang/
+2016-10-26 16:16:40 hz_lianjia.py [line:66] DEBUG complete_area_url: http://hz.lianjia.com/chengjiao/xiaoshan/
